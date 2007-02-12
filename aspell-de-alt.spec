@@ -1,6 +1,6 @@
 Summary:	German (old spelling) dictionary for aspell
-Summary(de):	Ein deutsches Wörterbuch (alter Spelling) für aspell
-Summary(pl):	Niemiecki s³ownik ze star± pisowni± dla aspella
+Summary(de.UTF-8):   Ein deutsches WÃ¶rterbuch (alter Spelling) fÃ¼r aspell
+Summary(pl.UTF-8):   Niemiecki sÅ‚ownik ze starÄ… pisowniÄ… dla aspella
 Name:		aspell-de-alt
 Version:	2.1
 %define	subv	1
@@ -18,12 +18,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 German (old spelling) dictionary (i.e. word list) for aspell.
 
-%description -l de
-Ein deutsches Wörterbuch (alter Spelling) zur Rechtschreibkontrolle
+%description -l de.UTF-8
+Ein deutsches WÃ¶rterbuch (alter Spelling) zur Rechtschreibkontrolle
 nach den neuen Rechtschreibregeln mit aspell.
 
-%description -l pl
-Niemiecki s³ownik (lista s³ów) ze star± pisowni± dla aspella.
+%description -l pl.UTF-8
+Niemiecki sÅ‚ownik (lista sÅ‚Ã³w) ze starÄ… pisowniÄ… dla aspella.
 
 %prep
 %setup -q -n aspell6-de-alt-%{version}-%{subv}
