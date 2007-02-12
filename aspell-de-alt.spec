@@ -1,6 +1,6 @@
 Summary:	German (old spelling) dictionary for aspell
-Summary(de.UTF-8):   Ein deutsches Wörterbuch (alter Spelling) für aspell
-Summary(pl.UTF-8):   Niemiecki słownik ze starą pisownią dla aspella
+Summary(de.UTF-8):	Ein deutsches Wörterbuch (alter Spelling) für aspell
+Summary(pl.UTF-8):	Niemiecki słownik ze starą pisownią dla aspella
 Name:		aspell-de-alt
 Version:	2.1
 %define	subv	1
