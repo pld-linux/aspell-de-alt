@@ -13,6 +13,7 @@ Source0:	http://ftp.gnu.org/gnu/aspell/dict/de/aspell6-de-alt-%{version}-%{subv}
 URL:		http://aspell.sourceforge.net/
 BuildRequires:	aspell >= 3:0.60
 Requires:	aspell >= 3:0.60
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -49,5 +50,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc README
 %lang(de) %doc doc/README.de
-%{_libdir}/aspell/*
+%{_prefix}/lib/aspell/*
 %{_datadir}/aspell/*
